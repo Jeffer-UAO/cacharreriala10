@@ -9,15 +9,14 @@ export function Contact() {
         <div className={styles.phone}>
         <h5>Líneas de atención</h5>
         <ul>
-          <li>(+57) 322 663 0481</li>
-          <li>(+57) 313 600 8914</li>
-          <li>(+602) 881 6111</li>
+          <li>(+57) 320 758 7325</li>
+          
         </ul>
       </div>
 
       <div className={styles.adress}>
         <h5>Ubicación:</h5>
-        <p>Calle 15# 9-36 frente a la estación del mio Petecuy</p>
+        <p>Carrera 10 # 14-11</p>
       </div>
       </div>
       <FooterApp />

@@ -24,7 +24,7 @@ export function AboutUs() {
           de atención al cliente estará encantado de ayudarte en todo momento,
           brindándote asesoramiento y respondiendo a tus preguntas. Explora
           nuestro catálogo en línea o visítanos en nuestra tienda física en el
-          centro de de ciudad de Cali calle 10 # --!
+          centro de de ciudad de Cali Carrera 10 # 14-11
         </p>
       </div>
 
@@ -50,15 +50,15 @@ export function AboutUs() {
       <div className={styles.phone}>
         <h5>Líneas de atención</h5>
         <ul>
-          <li>(+57) 322 663 0481</li>
-          <li>(+57) 313 600 8914</li>
-          <li>(+602) 881 6111</li>
+          <li>(+57) 320 758 7325</li>
+          
+         
         </ul>
       </div>
 
       <div className={styles.adress}>
         <h5>Ubicación:</h5>
-        <p>Calle 15# 9-36 frente a la estación del mio Petecuy</p>
+        <p>Carrera 10 # 14-11</p>
       </div>
     </div>
   );

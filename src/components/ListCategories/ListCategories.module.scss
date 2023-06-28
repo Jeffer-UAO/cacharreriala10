@@ -5,13 +5,15 @@
   justify-content: center;
   background-color: rgb(226, 10, 190);
   border-radius: 30px;
+
+ 
   h5 {
     color: rgb(62, 44, 252);
   }
 }
 
 .content {
-  padding: 1rem;
+  padding: 0.5rem;
   margin-bottom: 5rem;
 
   h1 {
@@ -25,7 +27,7 @@
   .list {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     text-align: center;
 
     h2 {

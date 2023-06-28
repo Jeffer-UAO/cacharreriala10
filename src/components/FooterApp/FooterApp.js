@@ -23,7 +23,7 @@ export function FooterApp() {
         />
 
         <WhatsApp
-          phoneNumber="+573112884317"
+          phoneNumber="+573207587325"
           message="Hola, me gustaría obtener más información sobre sus productos."
         />
 
