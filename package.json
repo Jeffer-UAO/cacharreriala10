@@ -1,6 +1,6 @@
 {
-  "name": "surtipapeleriala15-v3.0",
-  "version": "0.1.0",
+  "name": "cacharreriala10",
+  "version": "5.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
