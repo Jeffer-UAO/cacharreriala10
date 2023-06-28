@@ -1,0 +1,42 @@
+.btnWhatsapp {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  justify-content: center;
+
+  .paneluser {
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0 5px 0 5px;
+
+    -webkit-box-shadow: -1px 1px 15px 7px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: -1px 1px 15px 7px rgba(0, 0, 0, 0.53);
+    box-shadow: -1px 1px 15px 7px rgba(0, 0, 0, 0.53);
+
+    svg{
+      color: rgb(255, 255, 255);
+    }
+  }
+
+  .cart {
+    position: relative;
+    p {
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      background-color: rgb(255, 255, 255);
+      color: rgb(36, 32, 97);
+      font-weight: 800;
+      font-size: 13px;
+      left: 50px;
+      border-radius: 50px;
+      width: 1.5rem;
+    
+    }
+  }
+}

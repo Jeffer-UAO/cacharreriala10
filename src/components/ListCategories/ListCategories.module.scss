@@ -1,0 +1,44 @@
+.header {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(226, 10, 190);
+  border-radius: 30px;
+  h5 {
+    color: rgb(62, 44, 252);
+  }
+}
+
+.content {
+  padding: 1rem;
+  margin-bottom: 5rem;
+
+  h1 {
+    text-align: center;
+    margin: 10px;
+  }
+  h4 {
+    margin-bottom: 1rem;
+  }
+
+  .list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    text-align: center;
+
+    h2 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 2.5vh;
+      color: rgb(136, 3, 172);
+    }
+    img {
+      object-fit: cover;
+      object-position: center center;
+      border-radius: 0.3rem;
+      aspect-ratio: 1/1;
+    }
+  }
+}

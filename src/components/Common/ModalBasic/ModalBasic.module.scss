@@ -1,0 +1,32 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    background: white;
+    border-radius: 20%;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }

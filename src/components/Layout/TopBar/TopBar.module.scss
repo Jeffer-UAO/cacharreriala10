@@ -1,0 +1,46 @@
+.topBarComponent {
+  width: 100%;
+ 
+  .topBar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(67,201,96,1);
+    padding: 1rem;
+
+    .title {
+      width: 100%;
+      padding-left: 1rem;
+      .name {      
+        font-size: 25px;
+        color: rgb(255, 255, 255);    
+       
+      }
+
+      // p {
+      //   font-size: 18px;
+      //   color: rgb(0, 0, 0);
+      //   font-weight: 800;
+      // }
+
+      // .extra {
+      //   font-size: 15px;
+      //   color: rgb(0, 0, 0);
+      //   font-weight: 600;
+      // }
+    }
+
+    > a {
+      > img {      
+        object-fit: cover; /* Recorta la imagen sin deformarla */
+        object-position: center;
+        
+      }
+    }
+  }
+
+  // .redes {
+  //   background-color: black;
+  //   position: sticky;
+  // }
+}

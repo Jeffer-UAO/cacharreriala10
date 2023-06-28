@@ -1,0 +1,78 @@
+.list {
+  padding: 0.5rem;
+  background-color: #ebebeb;
+  width: 100dvw;
+  .card {
+    background-color: rgb(246, 245, 245);
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+      -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border: solid 5px white;
+    display: flex;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+
+    .detalle {
+      position: relative;
+      width: 100%;
+      align-items: flex-start;
+      padding: 0.5rem;
+
+      .btnDelete {
+        position: absolute;
+        top: 0;
+        right: 3.5px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        background-color: #5252521b;
+        border-radius: 2rem;  
+
+        svg {
+          margin: 0px;
+          
+        }
+      }
+     
+      .name {
+        max-width: 10rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+        color: rgb(8, 1, 137);
+        //  line-height: 1.8125rem;
+        //  font-family: Poppins, BlinkMacSystemFont, Roboto, sans-serif;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: unset;
+      }
+      .price {
+        font-size: 12px;
+        color: rgb(128, 151, 178);
+      }
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      
+      p {
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    }
+
+    img {
+      width: 7rem;
+      max-height: 7rem;
+      object-fit: cover;
+      object-position: center center;
+      border-radius: 0.5rem;
+    }
+  }
+}
