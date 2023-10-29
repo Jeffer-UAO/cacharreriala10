@@ -2,7 +2,7 @@ import { WhatsApp } from "../WhatsApp";
 import styles from "./FooterApp.module.scss";
 import { AiOutlineHome } from "react-icons/ai";
 import { MdOutlineCategory } from "react-icons/md";
-import { MdOutlineLocalOffer } from "react-icons/md";
+
 import { CiUser } from "react-icons/ci";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
